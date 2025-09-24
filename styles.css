@@ -592,8 +592,8 @@ QToolTip {
 
 /* TASKBAR Settings */
 .taskbar-widget {
-    /* padding: 0; */
-    /* margin: 0; */
+    padding: 0;
+    margin: 0;
     border: none;
 }
 .taskbar-widget .app-icon {
@@ -612,7 +612,6 @@ QToolTip {
 .taskbar-widget .widget-container {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    /* padding-left: 6px; */
 }
 
 /* ACTIVE WINDOW Settings */
@@ -623,9 +622,8 @@ QToolTip {
     padding-right: 0;
 }
 .active-window-widget .widget-container {
-    padding: auto;
-    /* border-bottom-right-radius: 0;
-    border-top-right-radius: 0; */
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 /* HOME Settings */
